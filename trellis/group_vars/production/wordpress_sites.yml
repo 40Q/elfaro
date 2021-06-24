@@ -3,13 +3,13 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  example.com:
+  elfaro.40q.agency:
     site_hosts:
-      - canonical: example.com
+      - canonical: elfaro.40q.agency
         redirects:
-          - www.example.com
+          - www.elfaro.40q.agency
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/example.com.git # replace with your Git repo URL
+    repo: git@github.com:40Q/elfaro.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
