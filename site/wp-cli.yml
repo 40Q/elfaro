@@ -1,3 +1,8 @@
 path: web/wp
 server:
   docroot: web
+
+@staging:
+  ssh: web@33.33.148.57/srv/www/elfaro.40q.agency/current
+@production:
+  ssh: web@45.55.120.94/srv/www/elfaro.40q.agency/current
