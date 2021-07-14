@@ -1,6 +1,13 @@
-@import 'tailwindcss/base';
+/** Config */
+// @import 'config/fonts';
+@import 'config/variables';
+@import 'config/external.scss';
+
+// @import 'helpers/mixins';
 
 @import 'common/global';
 
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'partials/header.scss';
+@import 'partials/footer.scss';
+
+// @import 'blocks';

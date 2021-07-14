@@ -1,8 +1,14 @@
 /**
  * External Dependencies
  */
-import 'jquery';
+import 'bootstrap';
 
-$(document).ready(() => {
-  // console.log('Hello world');
-});
+import { router } from 'js-dom-router';
+import common from './routes/common';
+
+router
+  .on({
+    common,
+  })
+  .dispatch('common')
+  .fire();
