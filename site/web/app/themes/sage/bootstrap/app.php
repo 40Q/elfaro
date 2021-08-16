@@ -25,7 +25,7 @@
 |
 */
 
-collect(['helpers', 'setup', 'filters', 'admin'])
+collect(['helpers', 'setup', 'filters', 'post-types', 'taxonomies', 'admin'])
     ->each(function ($file) {
         if (! locate_template($file = "app/{$file}.php", true, true)) {
             wp_die(
