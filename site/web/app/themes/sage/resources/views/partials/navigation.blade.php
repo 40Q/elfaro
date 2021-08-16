@@ -1,5 +1,5 @@
 @if ($navigation)
-  <div class="collapse navbar-collapse" id="main-navbar">
+  <nav class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     @foreach ($navigation as $item)
       <li class="nav-item{{ $item->children ? ' dropdown' : '' }}">
@@ -21,5 +21,5 @@
     <form>
       <input class="form-control" type="text" placeholder="Search" aria-label="Search">
     </form>
-  </div>
-  @endif
+  </nav>
+@endif

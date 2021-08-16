@@ -1,4 +1,4 @@
-<nav class="banner navbar navbar-expand-lg" aria-label="Eighth navbar example">
+<header class="banner navbar navbar-expand-lg" aria-label="Navbar">
   <a class="brand" href="{{ home_url('/') }}">
     {{ $siteName }}
   </a>
@@ -8,4 +8,4 @@
   </button>
 
   @include('partials.navigation')
-</nav>
+</header>
